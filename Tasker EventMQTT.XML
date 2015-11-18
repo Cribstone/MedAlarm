@@ -1,0 +1,63 @@
+<TaskerData sr="" dvi="1" tv="4.7u3m">
+<Profile sr="prof19" ve="2">
+<cdate>1447873231988</cdate>
+<edate>1447873833573</edate>
+<id>19</id>
+<mid0>3</mid0>
+<nme>Alarm</nme>
+<Event sr="con0" ve="2">
+<code>11061</code>
+<pri>0</pri>
+<Bundle sr="arg0">
+<Vals sr="val">
+<com.twofortyfouram.locale.intent.extra.BLURB>Alarm started</com.twofortyfouram.locale.intent.extra.BLURB>
+<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.ALARM_ALERT_START</com.urbandroid.sleep.taskerplugin.extra.EVENT>
+<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
+<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>1161</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
+<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
+<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+</Vals>
+</Bundle>
+<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
+<Str sr="arg2" ve="3">Sleep</Str>
+</Event>
+</Profile>
+<Task sr="task3">
+<cdate>1418848545354</cdate>
+<edate>1447873833573</edate>
+<id>3</id>
+<nme>Medlight</nme>
+<Action sr="act0" ve="7">
+<code>5724</code>
+<Bundle sr="arg0">
+<Vals sr="val">
+<Extra>&lt;StringArray sr=""&gt;&lt;_array_Extra0&gt;192.168.1.6&lt;/_array_Extra0&gt;&lt;_array_Extra1&gt;1883&lt;/_array_Extra1&gt;&lt;_array_Extra2&gt;null&lt;/_array_Extra2&gt;&lt;_array_Extra3&gt;null&lt;/_array_Extra3&gt;&lt;_array_Extra4&gt;test/color&lt;/_array_Extra4&gt;&lt;_array_Extra5&gt;ff0000&lt;/_array_Extra5&gt;&lt;/StringArray&gt;</Extra>
+<Extra-type>[Ljava.lang.String;</Extra-type>
+<Password>null</Password>
+<Password-type>java.lang.String</Password-type>
+<Payload>ff0000</Payload>
+<Payload-type>java.lang.String</Payload-type>
+<Port>1883</Port>
+<Port-type>java.lang.String</Port-type>
+<Server>192.168.1.6</Server>
+<Server-type>java.lang.String</Server-type>
+<Topic>test/color</Topic>
+<Topic-type>java.lang.String</Topic-type>
+<User>null</User>
+<User-type>java.lang.String</User-type>
+<com.twofortyfouram.locale.intent.extra.BLURB>192.168.1.6:1883 =&gt;
+test/color ,
+ff0000</com.twofortyfouram.locale.intent.extra.BLURB>
+<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+</Vals>
+</Bundle>
+<Str sr="arg1" ve="3">com.toucware.mqttsender</Str>
+<Str sr="arg2" ve="3">MqttSender</Str>
+<Int sr="arg3" val="0"/>
+</Action>
+</Task>
+</TaskerData>
